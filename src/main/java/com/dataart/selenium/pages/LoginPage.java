@@ -18,8 +18,9 @@ public class LoginPage extends BasePage {
 
     public HomePage loginAs(User user) {
         userNameTextField.clear();
-        passwordTextField.clear();
         userNameTextField.sendKeys(user.getUsername());
+        //IExplorer fill automatically passwordTextField after userNameTextField was added, so clear it
+        passwordTextField.clear();
         passwordTextField.sendKeys(user.getPassword());
         loginButton.click();
         return initPage(HomePage.class);

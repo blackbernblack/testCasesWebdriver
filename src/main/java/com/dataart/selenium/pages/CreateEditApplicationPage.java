@@ -1,5 +1,6 @@
 package com.dataart.selenium.pages;
 
+import com.dataart.selenium.framework.Settings;
 import com.dataart.selenium.framework.Utils;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -34,8 +35,10 @@ public class CreateEditApplicationPage extends BasicPage {
     public MyApplicationsPage createImageApplication(String appTitle) {
         titleTextField.sendKeys(appTitle);
         descriptionTextField.sendKeys(appTitle + appTitle);
-        loadIconField.sendKeys(FILE_ICON_PATH);
-        loadImageField.sendKeys(FILE_IMAGE_PATH);
+        ClassLoader loader = getClass().getClassLoader();
+        // replace '/' on '\' for internet explorer
+        loadIconField.sendKeys(loader.getResource(FILE_ICON_NAME).getPath().substring(1).replace('/','\\'));
+        loadImageField.sendKeys(loader.getResource(FILE_IMAGE_NAME).getPath().substring(1).replace('/','\\'));
         createdButton.click();
         return initPage(MyApplicationsPage.class);
     }
@@ -52,6 +55,6 @@ public class CreateEditApplicationPage extends BasicPage {
     public static final String LOAD_ICON_XPATH = "//input[@name='icon']";
     public static final String LOAD_IMAGE_XPATH = "//input[@name='image']";
 
-    public static final String FILE_IMAGE_PATH = "C:\\Users\\tkonstantinov\\Downloads\\large.JPG";
-    public static final String FILE_ICON_PATH = "C:\\Users\\tkonstantinov\\Downloads\\Capture.JPG";
+    public static final String FILE_IMAGE_NAME = "large.JPG";
+    public static final String FILE_ICON_NAME= "Capture.JPG";
 }

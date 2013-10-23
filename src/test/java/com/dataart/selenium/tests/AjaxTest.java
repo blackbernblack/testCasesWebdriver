@@ -6,9 +6,11 @@ import com.dataart.selenium.pages.AjaxTestPage;
 import com.dataart.selenium.pages.BasicPage;
 import com.dataart.selenium.pages.HeaderPage;
 import com.dataart.selenium.pages.LoginPage;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import static com.dataart.selenium.framework.BasePage.driver;
 import static com.dataart.selenium.framework.BasePage.initPage;
 import static com.dataart.selenium.models.UserBuilder.admin;
 import static org.fest.assertions.Assertions.assertThat;
@@ -48,5 +50,4 @@ public class AjaxTest extends BaseTest{
         ajaxTestPage = loginPage.loginAs(user).getHeader().clickAjaxTestPage();
         assertThat(ajaxTestPage.isIncorrextStringCalc("1" + AjaxTestPage.X_TEXT_FIELD_XPATH, "2")).isTrue();
     }
-
 }

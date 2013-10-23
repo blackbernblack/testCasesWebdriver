@@ -1,9 +1,13 @@
 package com.dataart.selenium.tests;
 
 import com.dataart.selenium.framework.BaseTest;
+import com.dataart.selenium.framework.BrowserType;
 import com.dataart.selenium.framework.Utils;
 import com.dataart.selenium.models.User;
 import com.dataart.selenium.pages.*;
+import org.openqa.selenium.Capabilities;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.ie.InternetExplorerDriverService;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -14,6 +18,9 @@ import static com.dataart.selenium.models.UserBuilder.admin;
 import static org.fest.assertions.Assertions.assertThat;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
+import static org.testng.AssertJUnit.fail;
+
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 /**
  * Created with IntelliJ IDEA.
@@ -43,6 +50,9 @@ public class ApplicationTest extends BaseTest {
 
    @Test
     public void verifyCorrespondingAppValuesTest() {
+        if (((RemoteWebDriver)driver).getCapabilities().getBrowserName().equals("internet explorer")) {
+             fail("Test is not feasible for internet explorer");
+        }
         loginPage.loginAs(user);
         applicationPage = appsContentPage.openAppPage(1);
         String noteAuthor = applicationPage.getAuthorText();
@@ -89,6 +99,9 @@ public class ApplicationTest extends BaseTest {
 
     @Test
     public void createAppDownloadAndVerifyPopular() {
+        if (((RemoteWebDriver)driver).getCapabilities().getBrowserName().equals("internet explorer")) {
+            fail("Test is not feasible for internet explorer");
+        }
         loginPage.loginAs(user).getHeader().clickMyApplications();
         createEditApplicationPage = appsContentPage.clickToAddNewApp();
         String appTitle = "Application " + Utils.getUUID();

@@ -91,7 +91,7 @@ public class ApplicationPage extends BasicPage {
     public static final String DOWNLOADS_TEXT_XPATH ="//div[@class='downloads']";
     public static final String EDIT_BUTTON_XPATH ="//div[@class='edit-app-button']/a[contains(text(),'Edit')]";
     public static final String DELETE_BUTTON_XPATH = "//div[@class='edit-app-button']/a[text()='Delete']";
-    //for more flexible tests POPULAR_APP_XPATH could be extracted to PopularContentPage
+    //for more flexible tests POPULAR_APP_XPATH could be extracted to PopularContentPage.class
     public static final String POPULAR_APP_XPATH ="//div[@class='popular-app']//div[text() = '%s']";
 
 }

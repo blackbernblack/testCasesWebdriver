@@ -11,5 +11,4 @@ public class MyApplicationsPage extends BasicPage{
     public AppsContentPage getAppsContent() {
         return initPage(AppsContentPage.class);
     }
-
 }
