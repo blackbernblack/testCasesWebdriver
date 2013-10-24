@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="8" time="9.996" errors="0" skipped="28" tests="36" name="TestSuite">
+<testsuite failures="0" time="29.482" errors="0" skipped="0" tests="18" name="TestSuite">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_40\jre\bin"/>
     <property name="java.vm.version" value="24.0-b56"/>
+    <property name="user.country.format" value="RO"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="user.script" value=""/>
-    <property name="user.country" value="GB"/>
+    <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
@@ -20,8 +21,8 @@
     <property name="basedir" value="D:\STUDIES\Study-repo"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_40\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="C:\Users\TKONST~1\AppData\Local\Temp\surefirebooter2706609231102756861.jar"/>
-    <property name="java.io.tmpdir" value="C:\Users\TKONST~1\AppData\Local\Temp\"/>
+    <property name="surefire.real.class.path" value="C:\Windows\TEMP\surefirebooter7362022214052179027.jar"/>
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -29,25 +30,26 @@
     <property name="os.name" value="Windows 8"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_40\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files\Java\jdk1.7.0_40;D:\LIBRARIES\apache-maven-3.1.1;D:\LIBRARIES\apache-maven-3.1.1\bin;;C:\Program Files (x86)\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Users\tkonstantinov\Downloads\operadriver-v1.1;;."/>
-    <property name="surefire.test.class.path" value="D:\STUDIES\Study-repo\target\test-classes;D:\STUDIES\Study-repo\target\classes;C:\Users\tkonstantinov\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\tkonstantinov\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\tkonstantinov\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\tkonstantinov\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\tkonstantinov\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\tkonstantinov\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\tkonstantinov\.m2\repository\org\seleniumhq\selenium\selenium-java\2.35.0\selenium-java-2.35.0.jar;C:\Users\tkonstantinov\.m2\repository\org\seleniumhq\selenium\selenium-android-driver\2.35.0\selenium-android-driver-2.35.0.jar;C:\Users\tkonstantinov\.m2\repository\org\seleniumhq\selenium\selenium-iphone-driver\2.35.0\selenium-iphone-driver-2.35.0.jar;C:\Users\tkonstantinov\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.35.0\selenium-safari-driver-2.35.0.jar;C:\Users\tkonstantinov\.m2\repository\org\seleniumhq\selenium\selenium-support\2.35.0\selenium-support-2.35.0.jar;C:\Users\tkonstantinov\.m2\repository\org\seleniumhq\selenium\selenium-api\2.35.0\selenium-api-2.35.0.jar;C:\Users\tkonstantinov\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;C:\Users\tkonstantinov\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;C:\Users\tkonstantinov\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.35.0\selenium-firefox-driver-2.35.0.jar;C:\Users\tkonstantinov\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.35.0\selenium-remote-driver-2.35.0.jar;C:\Users\tkonstantinov\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\tkonstantinov\.m2\repository\org\json\json\20080701\json-20080701.jar;C:\Users\tkonstantinov\.m2\repository\com\google\guava\guava\14.0\guava-14.0.jar;C:\Users\tkonstantinov\.m2\repository\commons-io\commons-io\2.2\commons-io-2.2.jar;C:\Users\tkonstantinov\.m2\repository\org\apache\commons\commons-exec\1.1\commons-exec-1.1.jar;C:\Users\tkonstantinov\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.35.0\selenium-ie-driver-2.35.0.jar;C:\Users\tkonstantinov\.m2\repository\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;C:\Users\tkonstantinov\.m2\repository\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;C:\Users\tkonstantinov\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.35.0\selenium-chrome-driver-2.35.0.jar;C:\Users\tkonstantinov\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.35.0\selenium-htmlunit-driver-2.35.0.jar;C:\Users\tkonstantinov\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.12\htmlunit-2.12.jar;C:\Users\tkonstantinov\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\tkonstantinov\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\tkonstantinov\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;C:\Users\tkonstantinov\.m2\repository\org\apache\httpcomponents\httpmime\4.2.3\httpmime-4.2.3.jar;C:\Users\tkonstantinov\.m2\repository\commons-codec\commons-codec\1.7\commons-codec-1.7.jar;C:\Users\tkonstantinov\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.12\htmlunit-core-js-2.12.jar;C:\Users\tkonstantinov\.m2\repository\xerces\xercesImpl\2.10.0\xercesImpl-2.10.0.jar;C:\Users\tkonstantinov\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\tkonstantinov\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.18\nekohtml-1.9.18.jar;C:\Users\tkonstantinov\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.9\cssparser-0.9.9.jar;C:\Users\tkonstantinov\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\tkonstantinov\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\tkonstantinov\.m2\repository\org\eclipse\jetty\jetty-websocket\8.1.9.v20130131\jetty-websocket-8.1.9.v20130131.jar;C:\Users\tkonstantinov\.m2\repository\org\eclipse\jetty\jetty-util\8.1.9.v20130131\jetty-util-8.1.9.v20130131.jar;C:\Users\tkonstantinov\.m2\repository\org\eclipse\jetty\jetty-io\8.1.9.v20130131\jetty-io-8.1.9.v20130131.jar;C:\Users\tkonstantinov\.m2\repository\org\eclipse\jetty\jetty-http\8.1.9.v20130131\jetty-http-8.1.9.v20130131.jar;C:\Users\tkonstantinov\.m2\repository\org\apache\httpcomponents\httpclient\4.2.1\httpclient-4.2.1.jar;C:\Users\tkonstantinov\.m2\repository\org\apache\httpcomponents\httpcore\4.2.1\httpcore-4.2.1.jar;C:\Users\tkonstantinov\.m2\repository\com\opera\operadriver\0.7.2\operadriver-0.7.2.jar;C:\Users\tkonstantinov\.m2\repository\com\google\protobuf\protobuf-java\2.3.0\protobuf-java-2.3.0.jar;C:\Users\tkonstantinov\.m2\repository\commons-jxpath\commons-jxpath\1.3\commons-jxpath-1.3.jar;C:\Users\tkonstantinov\.m2\repository\org\uncommons\reportng\1.1.2\reportng-1.1.2.jar;C:\Users\tkonstantinov\.m2\repository\velocity\velocity\1.5\velocity-1.5.jar;C:\Users\tkonstantinov\.m2\repository\commons-collections\commons-collections\3.1\commons-collections-3.1.jar;C:\Users\tkonstantinov\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\tkonstantinov\.m2\repository\commons-lang\commons-lang\2.3\commons-lang-2.3.jar;C:\Users\tkonstantinov\.m2\repository\com\google\inject\guice\2.0\guice-2.0.jar;C:\Users\tkonstantinov\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\tkonstantinov\.m2\repository\org\easytesting\fest-reflect\1.4\fest-reflect-1.4.jar;C:\Users\tkonstantinov\.m2\repository\org\easytesting\fest-util\1.1.6\fest-util-1.1.6.jar;C:\Users\tkonstantinov\.m2\repository\org\easytesting\fest-assert\1.4\fest-assert-1.4.jar;"/>
+    <property name="surefire.test.class.path" value="D:\STUDIES\Study-repo\target\test-classes;D:\STUDIES\Study-repo\target\classes;C:\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\.m2\repository\org\seleniumhq\selenium\selenium-java\2.35.0\selenium-java-2.35.0.jar;C:\.m2\repository\org\seleniumhq\selenium\selenium-android-driver\2.35.0\selenium-android-driver-2.35.0.jar;C:\.m2\repository\org\seleniumhq\selenium\selenium-iphone-driver\2.35.0\selenium-iphone-driver-2.35.0.jar;C:\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.35.0\selenium-safari-driver-2.35.0.jar;C:\.m2\repository\org\seleniumhq\selenium\selenium-support\2.35.0\selenium-support-2.35.0.jar;C:\.m2\repository\org\seleniumhq\selenium\selenium-api\2.35.0\selenium-api-2.35.0.jar;C:\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;C:\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;C:\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.35.0\selenium-firefox-driver-2.35.0.jar;C:\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.35.0\selenium-remote-driver-2.35.0.jar;C:\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\.m2\repository\org\json\json\20080701\json-20080701.jar;C:\.m2\repository\com\google\guava\guava\14.0\guava-14.0.jar;C:\.m2\repository\commons-io\commons-io\2.2\commons-io-2.2.jar;C:\.m2\repository\org\apache\commons\commons-exec\1.1\commons-exec-1.1.jar;C:\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.35.0\selenium-ie-driver-2.35.0.jar;C:\.m2\repository\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;C:\.m2\repository\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;C:\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.35.0\selenium-chrome-driver-2.35.0.jar;C:\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.35.0\selenium-htmlunit-driver-2.35.0.jar;C:\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.12\htmlunit-2.12.jar;C:\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;C:\.m2\repository\org\apache\httpcomponents\httpmime\4.2.3\httpmime-4.2.3.jar;C:\.m2\repository\commons-codec\commons-codec\1.7\commons-codec-1.7.jar;C:\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.12\htmlunit-core-js-2.12.jar;C:\.m2\repository\xerces\xercesImpl\2.10.0\xercesImpl-2.10.0.jar;C:\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.18\nekohtml-1.9.18.jar;C:\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.9\cssparser-0.9.9.jar;C:\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\.m2\repository\org\eclipse\jetty\jetty-websocket\8.1.9.v20130131\jetty-websocket-8.1.9.v20130131.jar;C:\.m2\repository\org\eclipse\jetty\jetty-util\8.1.9.v20130131\jetty-util-8.1.9.v20130131.jar;C:\.m2\repository\org\eclipse\jetty\jetty-io\8.1.9.v20130131\jetty-io-8.1.9.v20130131.jar;C:\.m2\repository\org\eclipse\jetty\jetty-http\8.1.9.v20130131\jetty-http-8.1.9.v20130131.jar;C:\.m2\repository\org\apache\httpcomponents\httpclient\4.2.1\httpclient-4.2.1.jar;C:\.m2\repository\org\apache\httpcomponents\httpcore\4.2.1\httpcore-4.2.1.jar;C:\.m2\repository\com\opera\operadriver\0.7.2\operadriver-0.7.2.jar;C:\.m2\repository\com\google\protobuf\protobuf-java\2.3.0\protobuf-java-2.3.0.jar;C:\.m2\repository\commons-jxpath\commons-jxpath\1.3\commons-jxpath-1.3.jar;C:\.m2\repository\org\uncommons\reportng\1.1.2\reportng-1.1.2.jar;C:\.m2\repository\velocity\velocity\1.5\velocity-1.5.jar;C:\.m2\repository\commons-collections\commons-collections\3.1\commons-collections-3.1.jar;C:\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\.m2\repository\commons-lang\commons-lang\2.3\commons-lang-2.3.jar;C:\.m2\repository\com\google\inject\guice\2.0\guice-2.0.jar;C:\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\.m2\repository\org\easytesting\fest-reflect\1.4\fest-reflect-1.4.jar;C:\.m2\repository\org\easytesting\fest-util\1.1.6\fest-util-1.1.6.jar;C:\.m2\repository\org\easytesting\fest-assert\1.4\fest-assert-1.4.jar;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="51.0"/>
     <property name="selenium.properties" value="selenium.properties"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="6.2"/>
-    <property name="user.home" value="C:\Users\tkonstantinov"/>
+    <property name="user.home" value="C:\"/>
     <property name="user.timezone" value="Europe/Helsinki"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.7"/>
     <property name="file.encoding" value="Cp1251"/>
-    <property name="user.name" value="tkonstantinov"/>
-    <property name="java.class.path" value="D:\STUDIES\Study-repo\target\test-classes;D:\STUDIES\Study-repo\target\classes;C:\Users\tkonstantinov\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\tkonstantinov\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\tkonstantinov\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\tkonstantinov\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\tkonstantinov\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\tkonstantinov\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\tkonstantinov\.m2\repository\org\seleniumhq\selenium\selenium-java\2.35.0\selenium-java-2.35.0.jar;C:\Users\tkonstantinov\.m2\repository\org\seleniumhq\selenium\selenium-android-driver\2.35.0\selenium-android-driver-2.35.0.jar;C:\Users\tkonstantinov\.m2\repository\org\seleniumhq\selenium\selenium-iphone-driver\2.35.0\selenium-iphone-driver-2.35.0.jar;C:\Users\tkonstantinov\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.35.0\selenium-safari-driver-2.35.0.jar;C:\Users\tkonstantinov\.m2\repository\org\seleniumhq\selenium\selenium-support\2.35.0\selenium-support-2.35.0.jar;C:\Users\tkonstantinov\.m2\repository\org\seleniumhq\selenium\selenium-api\2.35.0\selenium-api-2.35.0.jar;C:\Users\tkonstantinov\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;C:\Users\tkonstantinov\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;C:\Users\tkonstantinov\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.35.0\selenium-firefox-driver-2.35.0.jar;C:\Users\tkonstantinov\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.35.0\selenium-remote-driver-2.35.0.jar;C:\Users\tkonstantinov\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\tkonstantinov\.m2\repository\org\json\json\20080701\json-20080701.jar;C:\Users\tkonstantinov\.m2\repository\com\google\guava\guava\14.0\guava-14.0.jar;C:\Users\tkonstantinov\.m2\repository\commons-io\commons-io\2.2\commons-io-2.2.jar;C:\Users\tkonstantinov\.m2\repository\org\apache\commons\commons-exec\1.1\commons-exec-1.1.jar;C:\Users\tkonstantinov\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.35.0\selenium-ie-driver-2.35.0.jar;C:\Users\tkonstantinov\.m2\repository\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;C:\Users\tkonstantinov\.m2\repository\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;C:\Users\tkonstantinov\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.35.0\selenium-chrome-driver-2.35.0.jar;C:\Users\tkonstantinov\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.35.0\selenium-htmlunit-driver-2.35.0.jar;C:\Users\tkonstantinov\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.12\htmlunit-2.12.jar;C:\Users\tkonstantinov\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\tkonstantinov\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\tkonstantinov\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;C:\Users\tkonstantinov\.m2\repository\org\apache\httpcomponents\httpmime\4.2.3\httpmime-4.2.3.jar;C:\Users\tkonstantinov\.m2\repository\commons-codec\commons-codec\1.7\commons-codec-1.7.jar;C:\Users\tkonstantinov\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.12\htmlunit-core-js-2.12.jar;C:\Users\tkonstantinov\.m2\repository\xerces\xercesImpl\2.10.0\xercesImpl-2.10.0.jar;C:\Users\tkonstantinov\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\tkonstantinov\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.18\nekohtml-1.9.18.jar;C:\Users\tkonstantinov\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.9\cssparser-0.9.9.jar;C:\Users\tkonstantinov\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\tkonstantinov\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\tkonstantinov\.m2\repository\org\eclipse\jetty\jetty-websocket\8.1.9.v20130131\jetty-websocket-8.1.9.v20130131.jar;C:\Users\tkonstantinov\.m2\repository\org\eclipse\jetty\jetty-util\8.1.9.v20130131\jetty-util-8.1.9.v20130131.jar;C:\Users\tkonstantinov\.m2\repository\org\eclipse\jetty\jetty-io\8.1.9.v20130131\jetty-io-8.1.9.v20130131.jar;C:\Users\tkonstantinov\.m2\repository\org\eclipse\jetty\jetty-http\8.1.9.v20130131\jetty-http-8.1.9.v20130131.jar;C:\Users\tkonstantinov\.m2\repository\org\apache\httpcomponents\httpclient\4.2.1\httpclient-4.2.1.jar;C:\Users\tkonstantinov\.m2\repository\org\apache\httpcomponents\httpcore\4.2.1\httpcore-4.2.1.jar;C:\Users\tkonstantinov\.m2\repository\com\opera\operadriver\0.7.2\operadriver-0.7.2.jar;C:\Users\tkonstantinov\.m2\repository\com\google\protobuf\protobuf-java\2.3.0\protobuf-java-2.3.0.jar;C:\Users\tkonstantinov\.m2\repository\commons-jxpath\commons-jxpath\1.3\commons-jxpath-1.3.jar;C:\Users\tkonstantinov\.m2\repository\org\uncommons\reportng\1.1.2\reportng-1.1.2.jar;C:\Users\tkonstantinov\.m2\repository\velocity\velocity\1.5\velocity-1.5.jar;C:\Users\tkonstantinov\.m2\repository\commons-collections\commons-collections\3.1\commons-collections-3.1.jar;C:\Users\tkonstantinov\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\tkonstantinov\.m2\repository\commons-lang\commons-lang\2.3\commons-lang-2.3.jar;C:\Users\tkonstantinov\.m2\repository\com\google\inject\guice\2.0\guice-2.0.jar;C:\Users\tkonstantinov\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\tkonstantinov\.m2\repository\org\easytesting\fest-reflect\1.4\fest-reflect-1.4.jar;C:\Users\tkonstantinov\.m2\repository\org\easytesting\fest-util\1.1.6\fest-util-1.1.6.jar;C:\Users\tkonstantinov\.m2\repository\org\easytesting\fest-assert\1.4\fest-assert-1.4.jar;"/>
+    <property name="user.name" value="TKONSTANTINOV$"/>
+    <property name="java.class.path" value="D:\STUDIES\Study-repo\target\test-classes;D:\STUDIES\Study-repo\target\classes;C:\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\.m2\repository\org\seleniumhq\selenium\selenium-java\2.35.0\selenium-java-2.35.0.jar;C:\.m2\repository\org\seleniumhq\selenium\selenium-android-driver\2.35.0\selenium-android-driver-2.35.0.jar;C:\.m2\repository\org\seleniumhq\selenium\selenium-iphone-driver\2.35.0\selenium-iphone-driver-2.35.0.jar;C:\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.35.0\selenium-safari-driver-2.35.0.jar;C:\.m2\repository\org\seleniumhq\selenium\selenium-support\2.35.0\selenium-support-2.35.0.jar;C:\.m2\repository\org\seleniumhq\selenium\selenium-api\2.35.0\selenium-api-2.35.0.jar;C:\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;C:\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;C:\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.35.0\selenium-firefox-driver-2.35.0.jar;C:\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.35.0\selenium-remote-driver-2.35.0.jar;C:\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\.m2\repository\org\json\json\20080701\json-20080701.jar;C:\.m2\repository\com\google\guava\guava\14.0\guava-14.0.jar;C:\.m2\repository\commons-io\commons-io\2.2\commons-io-2.2.jar;C:\.m2\repository\org\apache\commons\commons-exec\1.1\commons-exec-1.1.jar;C:\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.35.0\selenium-ie-driver-2.35.0.jar;C:\.m2\repository\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;C:\.m2\repository\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;C:\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.35.0\selenium-chrome-driver-2.35.0.jar;C:\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.35.0\selenium-htmlunit-driver-2.35.0.jar;C:\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.12\htmlunit-2.12.jar;C:\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;C:\.m2\repository\org\apache\httpcomponents\httpmime\4.2.3\httpmime-4.2.3.jar;C:\.m2\repository\commons-codec\commons-codec\1.7\commons-codec-1.7.jar;C:\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.12\htmlunit-core-js-2.12.jar;C:\.m2\repository\xerces\xercesImpl\2.10.0\xercesImpl-2.10.0.jar;C:\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.18\nekohtml-1.9.18.jar;C:\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.9\cssparser-0.9.9.jar;C:\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\.m2\repository\org\eclipse\jetty\jetty-websocket\8.1.9.v20130131\jetty-websocket-8.1.9.v20130131.jar;C:\.m2\repository\org\eclipse\jetty\jetty-util\8.1.9.v20130131\jetty-util-8.1.9.v20130131.jar;C:\.m2\repository\org\eclipse\jetty\jetty-io\8.1.9.v20130131\jetty-io-8.1.9.v20130131.jar;C:\.m2\repository\org\eclipse\jetty\jetty-http\8.1.9.v20130131\jetty-http-8.1.9.v20130131.jar;C:\.m2\repository\org\apache\httpcomponents\httpclient\4.2.1\httpclient-4.2.1.jar;C:\.m2\repository\org\apache\httpcomponents\httpcore\4.2.1\httpcore-4.2.1.jar;C:\.m2\repository\com\opera\operadriver\0.7.2\operadriver-0.7.2.jar;C:\.m2\repository\com\google\protobuf\protobuf-java\2.3.0\protobuf-java-2.3.0.jar;C:\.m2\repository\commons-jxpath\commons-jxpath\1.3\commons-jxpath-1.3.jar;C:\.m2\repository\org\uncommons\reportng\1.1.2\reportng-1.1.2.jar;C:\.m2\repository\velocity\velocity\1.5\velocity-1.5.jar;C:\.m2\repository\commons-collections\commons-collections\3.1\commons-collections-3.1.jar;C:\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\.m2\repository\commons-lang\commons-lang\2.3\commons-lang-2.3.jar;C:\.m2\repository\com\google\inject\guice\2.0\guice-2.0.jar;C:\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\.m2\repository\org\easytesting\fest-reflect\1.4\fest-reflect-1.4.jar;C:\.m2\repository\org\easytesting\fest-util\1.1.6\fest-util-1.1.6.jar;C:\.m2\repository\org\easytesting\fest-assert\1.4\fest-assert-1.4.jar;"/>
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_40\jre"/>
-    <property name="sun.java.command" value="C:\Users\TKONST~1\AppData\Local\Temp\surefirebooter2706609231102756861.jar C:\Users\TKONST~1\AppData\Local\Temp\surefire7201139329206008471tmp C:\Users\TKONST~1\AppData\Local\Temp\surefire4429091394946722784tmp"/>
+    <property name="sun.java.command" value="C:\Windows\TEMP\surefirebooter7362022214052179027.jar C:\Windows\TEMP\surefire5483397748573231243tmp C:\Windows\TEMP\surefire6061019096894636798tmp"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
+    <property name="user.language.format" value="ro"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="1.7.0_40"/>
@@ -55,7 +57,7 @@
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_40\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_40\jre\classes"/>
     <property name="webdriver.chrome.driver" value=".//target//test-classes//chromedriver.exe"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="localRepository" value="C:\Users\tkonstantinov\.m2\repository"/>
+    <property name="localRepository" value="C:\.m2\repository"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -63,372 +65,22 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="1.953" classname="com.dataart.selenium.tests.AjaxTest" name="sumNumbersAndCheckResultTest">
-    <failure message="no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=30.0.1599.101)
-  (Driver info: chromedriver=2.4.226107,platform=Windows NT 6.2 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2 milliseconds
-Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;
-System info: os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_40&apos;
-Session ID: 4a258a08dfc6d46674c87668ae90c53f
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=WIN8, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={chromedriverVersion=2.4.226107}, rotatable=false, locationContextEnabled=true, version=30.0.1599.101, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=30.0.1599.101)
-  (Driver info: chromedriver=2.4.226107,platform=Windows NT 6.2 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2 milliseconds
-Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;
-System info: os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_40&apos;
-Session ID: 4a258a08dfc6d46674c87668ae90c53f
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=WIN8, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={chromedriverVersion=2.4.226107}, rotatable=false, locationContextEnabled=true, version=30.0.1599.101, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
-	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
-	at com.dataart.selenium.pages.AjaxTestPage.calculate(AjaxTestPage.java:25)
-	at com.dataart.selenium.tests.AjaxTest.sumNumbersAndCheckResultTest(AjaxTest.java:45)
-</failure>
-  </testcase>
-  <testcase time="1.964" classname="com.dataart.selenium.tests.AjaxTest" name="openLoginPage">
-    <failure message="no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=30.0.1599.101)
-  (Driver info: chromedriver=2.4.226107,platform=Windows NT 6.2 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2 milliseconds
-Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;
-System info: os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_40&apos;
-Session ID: 4a258a08dfc6d46674c87668ae90c53f
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=WIN8, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={chromedriverVersion=2.4.226107}, rotatable=false, locationContextEnabled=true, version=30.0.1599.101, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=30.0.1599.101)
-  (Driver info: chromedriver=2.4.226107,platform=Windows NT 6.2 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2 milliseconds
-Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;
-System info: os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_40&apos;
-Session ID: 4a258a08dfc6d46674c87668ae90c53f
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=WIN8, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={chromedriverVersion=2.4.226107}, rotatable=false, locationContextEnabled=true, version=30.0.1599.101, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
-	at com.dataart.selenium.pages.BasicPage.forceLogout(BasicPage.java:14)
-	at com.dataart.selenium.tests.AjaxTest.openLoginPage(AjaxTest.java:34)
-</failure>
-  </testcase>
-  <testcase time="0" classname="com.dataart.selenium.tests.AjaxTest" name="sumStringAndCheckIncorrectResultTest">
-    <skipped/>
-  </testcase>
-  <testcase time="0.002" classname="com.dataart.selenium.tests.ApplicationTest" name="openLoginPage">
-    <failure message="no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=30.0.1599.101)
-  (Driver info: chromedriver=2.4.226107,platform=Windows NT 6.2 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2 milliseconds
-Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;
-System info: os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_40&apos;
-Session ID: 4a258a08dfc6d46674c87668ae90c53f
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=WIN8, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={chromedriverVersion=2.4.226107}, rotatable=false, locationContextEnabled=true, version=30.0.1599.101, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=30.0.1599.101)
-  (Driver info: chromedriver=2.4.226107,platform=Windows NT 6.2 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2 milliseconds
-Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;
-System info: os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_40&apos;
-Session ID: 4a258a08dfc6d46674c87668ae90c53f
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=WIN8, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={chromedriverVersion=2.4.226107}, rotatable=false, locationContextEnabled=true, version=30.0.1599.101, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
-	at com.dataart.selenium.pages.BasicPage.forceLogout(BasicPage.java:14)
-	at com.dataart.selenium.tests.ApplicationTest.openLoginPage(ApplicationTest.java:46)
-</failure>
-  </testcase>
-  <testcase time="0" classname="com.dataart.selenium.tests.ApplicationTest" name="createAppDownloadAndVerifyPopular">
-    <skipped/>
-  </testcase>
-  <testcase time="0.002" classname="com.dataart.selenium.tests.ApplicationTest" name="openLoginPage">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.dataart.selenium.tests.ApplicationTest" name="createAppWithImageAndIconTest">
-    <skipped/>
-  </testcase>
-  <testcase time="0.001" classname="com.dataart.selenium.tests.ApplicationTest" name="openLoginPage">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.dataart.selenium.tests.ApplicationTest" name="createAppWithoutImagesTest">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.dataart.selenium.tests.ApplicationTest" name="openLoginPage">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.dataart.selenium.tests.ApplicationTest" name="deleteAppAndVerifyRemoved">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.dataart.selenium.tests.ApplicationTest" name="openLoginPage">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.dataart.selenium.tests.ApplicationTest" name="editAppWithoutImagesAndVerifyChangesTest">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.dataart.selenium.tests.ApplicationTest" name="openLoginPage">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.dataart.selenium.tests.ApplicationTest" name="verifyCorrespondingAppValuesTest">
-    <skipped/>
-  </testcase>
-  <testcase time="0.003" classname="com.dataart.selenium.tests.JSTest" name="openLoginPage">
-    <failure message="no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=30.0.1599.101)
-  (Driver info: chromedriver=2.4.226107,platform=Windows NT 6.2 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 3 milliseconds
-Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;
-System info: os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_40&apos;
-Session ID: 4a258a08dfc6d46674c87668ae90c53f
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=WIN8, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={chromedriverVersion=2.4.226107}, rotatable=false, locationContextEnabled=true, version=30.0.1599.101, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=30.0.1599.101)
-  (Driver info: chromedriver=2.4.226107,platform=Windows NT 6.2 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 3 milliseconds
-Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;
-System info: os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_40&apos;
-Session ID: 4a258a08dfc6d46674c87668ae90c53f
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=WIN8, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={chromedriverVersion=2.4.226107}, rotatable=false, locationContextEnabled=true, version=30.0.1599.101, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
-	at com.dataart.selenium.pages.BasicPage.forceLogout(BasicPage.java:14)
-	at com.dataart.selenium.tests.JSTest.openLoginPage(JSTest.java:32)
-</failure>
-  </testcase>
-  <testcase time="0" classname="com.dataart.selenium.tests.JSTest" name="findPositionTest">
-    <skipped/>
-  </testcase>
-  <testcase time="0.003" classname="com.dataart.selenium.tests.LoginTest" name="openLoginPage">
-    <failure message="no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=30.0.1599.101)
-  (Driver info: chromedriver=2.4.226107,platform=Windows NT 6.2 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1 milliseconds
-Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;
-System info: os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_40&apos;
-Session ID: 4a258a08dfc6d46674c87668ae90c53f
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=WIN8, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={chromedriverVersion=2.4.226107}, rotatable=false, locationContextEnabled=true, version=30.0.1599.101, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=30.0.1599.101)
-  (Driver info: chromedriver=2.4.226107,platform=Windows NT 6.2 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1 milliseconds
-Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;
-System info: os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_40&apos;
-Session ID: 4a258a08dfc6d46674c87668ae90c53f
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=WIN8, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={chromedriverVersion=2.4.226107}, rotatable=false, locationContextEnabled=true, version=30.0.1599.101, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
-	at com.dataart.selenium.pages.BasicPage.forceLogout(BasicPage.java:14)
-	at com.dataart.selenium.tests.LoginTest.openLoginPage(LoginTest.java:26)
-</failure>
-  </testcase>
-  <testcase time="0" classname="com.dataart.selenium.tests.LoginTest" name="correctLoginTest">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.dataart.selenium.tests.LoginTest" name="openLoginPage">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.dataart.selenium.tests.LoginTest" name="incorrectLoginTest">
-    <skipped/>
-  </testcase>
-  <testcase time="0.001" classname="com.dataart.selenium.tests.LoginTest" name="openLoginPage">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.dataart.selenium.tests.LoginTest" name="incorrectThenCorrectTest">
-    <skipped/>
-  </testcase>
-  <testcase time="0.002" classname="com.dataart.selenium.tests.LoginValidInvalidTest" name="openLoginPage">
-    <failure message="no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=30.0.1599.101)
-  (Driver info: chromedriver=2.4.226107,platform=Windows NT 6.2 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2 milliseconds
-Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;
-System info: os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_40&apos;
-Session ID: 4a258a08dfc6d46674c87668ae90c53f
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=WIN8, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={chromedriverVersion=2.4.226107}, rotatable=false, locationContextEnabled=true, version=30.0.1599.101, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=30.0.1599.101)
-  (Driver info: chromedriver=2.4.226107,platform=Windows NT 6.2 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2 milliseconds
-Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;
-System info: os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_40&apos;
-Session ID: 4a258a08dfc6d46674c87668ae90c53f
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=WIN8, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={chromedriverVersion=2.4.226107}, rotatable=false, locationContextEnabled=true, version=30.0.1599.101, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
-	at com.dataart.selenium.pages.BasicPage.forceLogout(BasicPage.java:14)
-	at com.dataart.selenium.tests.LoginValidInvalidTest.openLoginPage(LoginValidInvalidTest.java:32)
-</failure>
-  </testcase>
-  <testcase time="0" classname="com.dataart.selenium.tests.LoginValidInvalidTest" name="correctLoginTest">
-    <skipped/>
-  </testcase>
-  <testcase time="0.001" classname="com.dataart.selenium.tests.LoginValidInvalidTest" name="openLoginPage">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.dataart.selenium.tests.LoginValidInvalidTest" name="incorrectPasswordLoginTest">
-    <skipped/>
-  </testcase>
-  <testcase time="0.005" classname="com.dataart.selenium.tests.RegistrationTest" name="openLoginPage">
-    <failure message="no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=30.0.1599.101)
-  (Driver info: chromedriver=2.4.226107,platform=Windows NT 6.2 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 3 milliseconds
-Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;
-System info: os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_40&apos;
-Session ID: 4a258a08dfc6d46674c87668ae90c53f
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=WIN8, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={chromedriverVersion=2.4.226107}, rotatable=false, locationContextEnabled=true, version=30.0.1599.101, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=30.0.1599.101)
-  (Driver info: chromedriver=2.4.226107,platform=Windows NT 6.2 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 3 milliseconds
-Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;
-System info: os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_40&apos;
-Session ID: 4a258a08dfc6d46674c87668ae90c53f
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=WIN8, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={chromedriverVersion=2.4.226107}, rotatable=false, locationContextEnabled=true, version=30.0.1599.101, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
-	at com.dataart.selenium.pages.BasicPage.forceLogout(BasicPage.java:14)
-	at com.dataart.selenium.tests.RegistrationTest.openLoginPage(RegistrationTest.java:32)
-</failure>
-  </testcase>
-  <testcase time="0" classname="com.dataart.selenium.tests.RegistrationTest" name="registerAndVerifyUserTest">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.dataart.selenium.tests.RegistrationTest" name="openLoginPage">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.dataart.selenium.tests.RegistrationTest" name="registerDevAndVerifyUploadPageTest">
-    <skipped/>
-  </testcase>
-  <testcase time="0.001" classname="com.dataart.selenium.tests.RegistrationTest" name="openLoginPage">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.dataart.selenium.tests.RegistrationTest" name="registerLogoutAndVerifyLoginUserTest">
-    <skipped/>
-  </testcase>
-  <testcase time="0" classname="com.dataart.selenium.tests.RegistrationTest" name="openLoginPage">
-    <skipped/>
-  </testcase>
-  <testcase time="0.001" classname="com.dataart.selenium.tests.RegistrationTest" name="registerUserAndVerifySeeAplicationTest">
-    <skipped/>
-  </testcase>
-  <testcase time="1.415" classname="com.dataart.selenium.tests.RegistrationTest" name="afterClass">
-    <failure message="chrome not reachable
-  (Session info: chrome=30.0.1599.101)
-  (Driver info: chromedriver=2.4.226107,platform=Windows NT 6.2 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.40 seconds
-Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;
-System info: os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_40&apos;
-Session ID: 4a258a08dfc6d46674c87668ae90c53f
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=WIN8, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={chromedriverVersion=2.4.226107}, rotatable=false, locationContextEnabled=true, version=30.0.1599.101, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=30.0.1599.101)
-  (Driver info: chromedriver=2.4.226107,platform=Windows NT 6.2 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.40 seconds
-Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;
-System info: os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_40&apos;
-Session ID: 4a258a08dfc6d46674c87668ae90c53f
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=WIN8, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={chromedriverVersion=2.4.226107}, rotatable=false, locationContextEnabled=true, version=30.0.1599.101, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:418)
-	at com.dataart.selenium.framework.BaseTest.afterClass(BaseTest.java:19)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:308)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:62)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:141)
-	at org.apache.maven.surefire.Surefire.run(Surefire.java:180)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)
-	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)
-</failure>
-  </testcase>
+  <testcase time="4.387" classname="com.dataart.selenium.tests.AjaxTest" name="sumNumbersAndCheckResultTest"/>
+  <testcase time="4.592" classname="com.dataart.selenium.tests.AjaxTest" name="sumStringAndCheckIncorrectResultTest"/>
+  <testcase time="2.867" classname="com.dataart.selenium.tests.ApplicationTest" name="createAppDownloadAndVerifyPopular"/>
+  <testcase time="1.336" classname="com.dataart.selenium.tests.ApplicationTest" name="createAppWithImageAndIconTest"/>
+  <testcase time="0.702" classname="com.dataart.selenium.tests.ApplicationTest" name="createAppWithoutImagesTest"/>
+  <testcase time="0.607" classname="com.dataart.selenium.tests.ApplicationTest" name="deleteAppAndVerifyRemoved"/>
+  <testcase time="0.612" classname="com.dataart.selenium.tests.ApplicationTest" name="editAppWithoutImagesAndVerifyChangesTest"/>
+  <testcase time="0.5" classname="com.dataart.selenium.tests.ApplicationTest" name="verifyCorrespondingAppValuesTest"/>
+  <testcase time="0.487" classname="com.dataart.selenium.tests.JSTest" name="findPositionTest"/>
+  <testcase time="0.275" classname="com.dataart.selenium.tests.LoginTest" name="correctLoginTest"/>
+  <testcase time="0.246" classname="com.dataart.selenium.tests.LoginTest" name="incorrectLoginTest"/>
+  <testcase time="0.474" classname="com.dataart.selenium.tests.LoginTest" name="incorrectThenCorrectTest"/>
+  <testcase time="0.257" classname="com.dataart.selenium.tests.LoginValidInvalidTest" name="correctLoginTest"/>
+  <testcase time="0.247" classname="com.dataart.selenium.tests.LoginValidInvalidTest" name="incorrectPasswordLoginTest"/>
+  <testcase time="0.65" classname="com.dataart.selenium.tests.RegistrationTest" name="registerAndVerifyUserTest"/>
+  <testcase time="0.621" classname="com.dataart.selenium.tests.RegistrationTest" name="registerDevAndVerifyUploadPageTest"/>
+  <testcase time="1.006" classname="com.dataart.selenium.tests.RegistrationTest" name="registerLogoutAndVerifyLoginUserTest"/>
+  <testcase time="0.73" classname="com.dataart.selenium.tests.RegistrationTest" name="registerUserAndVerifySeeAplicationTest"/>
 </testsuite>

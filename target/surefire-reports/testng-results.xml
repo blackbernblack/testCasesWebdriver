@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="18" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="23885" started-at="2013-10-24T08:47:49Z" finished-at="2013-10-24T08:48:13Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="23885" started-at="2013-10-24T08:47:49Z" finished-at="2013-10-24T08:48:13Z">
+      <class name="com.dataart.selenium.tests.AjaxTest">
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:com.dataart.selenium.tests.AjaxTest@73dfc95e]" name="openLoginPage" is-config="true" duration-ms="68" started-at="2013-10-24T11:47:49Z" finished-at="2013-10-24T11:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="sumNumbersAndCheckResultTest()[pri:0, instance:com.dataart.selenium.tests.AjaxTest@73dfc95e]" name="sumNumbersAndCheckResultTest" duration-ms="5297" started-at="2013-10-24T11:47:49Z" finished-at="2013-10-24T11:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumNumbersAndCheckResultTest -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:com.dataart.selenium.tests.AjaxTest@73dfc95e]" name="openLoginPage" is-config="true" duration-ms="121" started-at="2013-10-24T11:47:55Z" finished-at="2013-10-24T11:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="sumStringAndCheckIncorrectResultTest()[pri:0, instance:com.dataart.selenium.tests.AjaxTest@73dfc95e]" name="sumStringAndCheckIncorrectResultTest" duration-ms="4870" started-at="2013-10-24T11:47:55Z" finished-at="2013-10-24T11:48:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumStringAndCheckIncorrectResultTest -->
+      </class> <!-- com.dataart.selenium.tests.AjaxTest -->
+      <class name="com.dataart.selenium.tests.LoginValidInvalidTest">
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:com.dataart.selenium.tests.LoginValidInvalidTest@691d75c0]" name="openLoginPage" is-config="true" duration-ms="152" started-at="2013-10-24T11:48:08Z" finished-at="2013-10-24T11:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="correctLoginTest()[pri:0, instance:com.dataart.selenium.tests.LoginValidInvalidTest@691d75c0]" name="correctLoginTest" duration-ms="375" started-at="2013-10-24T11:48:09Z" finished-at="2013-10-24T11:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctLoginTest -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:com.dataart.selenium.tests.LoginValidInvalidTest@691d75c0]" name="openLoginPage" is-config="true" duration-ms="123" started-at="2013-10-24T11:48:09Z" finished-at="2013-10-24T11:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="incorrectPasswordLoginTest()[pri:0, instance:com.dataart.selenium.tests.LoginValidInvalidTest@691d75c0]" name="incorrectPasswordLoginTest" duration-ms="256" started-at="2013-10-24T11:48:09Z" finished-at="2013-10-24T11:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectPasswordLoginTest -->
+      </class> <!-- com.dataart.selenium.tests.LoginValidInvalidTest -->
+      <class name="com.dataart.selenium.tests.LoginTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.dataart.selenium.tests.LoginTest@52fd037d]" name="beforeSuite" is-config="true" duration-ms="5338" started-at="2013-10-24T11:47:44Z" finished-at="2013-10-24T11:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:com.dataart.selenium.tests.LoginTest@52fd037d]" name="openLoginPage" is-config="true" duration-ms="125" started-at="2013-10-24T11:48:07Z" finished-at="2013-10-24T11:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="correctLoginTest()[pri:0, instance:com.dataart.selenium.tests.LoginTest@52fd037d]" name="correctLoginTest" duration-ms="307" started-at="2013-10-24T11:48:07Z" finished-at="2013-10-24T11:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctLoginTest -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:com.dataart.selenium.tests.LoginTest@52fd037d]" name="openLoginPage" is-config="true" duration-ms="177" started-at="2013-10-24T11:48:07Z" finished-at="2013-10-24T11:48:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="incorrectLoginTest()[pri:0, instance:com.dataart.selenium.tests.LoginTest@52fd037d]" name="incorrectLoginTest" duration-ms="288" started-at="2013-10-24T11:48:08Z" finished-at="2013-10-24T11:48:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectLoginTest -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:com.dataart.selenium.tests.LoginTest@52fd037d]" name="openLoginPage" is-config="true" duration-ms="28" started-at="2013-10-24T11:48:08Z" finished-at="2013-10-24T11:48:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="incorrectThenCorrectTest()[pri:0, instance:com.dataart.selenium.tests.LoginTest@52fd037d]" name="incorrectThenCorrectTest" duration-ms="536" started-at="2013-10-24T11:48:08Z" finished-at="2013-10-24T11:48:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectThenCorrectTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.dataart.selenium.tests.LoginTest@52fd037d]" name="afterClass" is-config="true" duration-ms="1594" started-at="2013-10-24T11:48:13Z" finished-at="2013-10-24T11:48:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.dataart.selenium.tests.LoginTest -->
+      <class name="com.dataart.selenium.tests.ApplicationTest">
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:com.dataart.selenium.tests.ApplicationTest@b5ee9d9]" name="openLoginPage" is-config="true" duration-ms="932" started-at="2013-10-24T11:48:00Z" finished-at="2013-10-24T11:48:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="createAppDownloadAndVerifyPopular()[pri:0, instance:com.dataart.selenium.tests.ApplicationTest@b5ee9d9]" name="createAppDownloadAndVerifyPopular" duration-ms="1657" started-at="2013-10-24T11:48:01Z" finished-at="2013-10-24T11:48:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAppDownloadAndVerifyPopular -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:com.dataart.selenium.tests.ApplicationTest@b5ee9d9]" name="openLoginPage" is-config="true" duration-ms="123" started-at="2013-10-24T11:48:02Z" finished-at="2013-10-24T11:48:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="createAppWithImageAndIconTest()[pri:0, instance:com.dataart.selenium.tests.ApplicationTest@b5ee9d9]" name="createAppWithImageAndIconTest" duration-ms="773" started-at="2013-10-24T11:48:02Z" finished-at="2013-10-24T11:48:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAppWithImageAndIconTest -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:com.dataart.selenium.tests.ApplicationTest@b5ee9d9]" name="openLoginPage" is-config="true" duration-ms="136" started-at="2013-10-24T11:48:03Z" finished-at="2013-10-24T11:48:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="createAppWithoutImagesTest()[pri:0, instance:com.dataart.selenium.tests.ApplicationTest@b5ee9d9]" name="createAppWithoutImagesTest" duration-ms="769" started-at="2013-10-24T11:48:03Z" finished-at="2013-10-24T11:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAppWithoutImagesTest -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:com.dataart.selenium.tests.ApplicationTest@b5ee9d9]" name="openLoginPage" is-config="true" duration-ms="124" started-at="2013-10-24T11:48:04Z" finished-at="2013-10-24T11:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="deleteAppAndVerifyRemoved()[pri:0, instance:com.dataart.selenium.tests.ApplicationTest@b5ee9d9]" name="deleteAppAndVerifyRemoved" duration-ms="637" started-at="2013-10-24T11:48:04Z" finished-at="2013-10-24T11:48:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAppAndVerifyRemoved -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:com.dataart.selenium.tests.ApplicationTest@b5ee9d9]" name="openLoginPage" is-config="true" duration-ms="135" started-at="2013-10-24T11:48:05Z" finished-at="2013-10-24T11:48:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="editAppWithoutImagesAndVerifyChangesTest()[pri:0, instance:com.dataart.selenium.tests.ApplicationTest@b5ee9d9]" name="editAppWithoutImagesAndVerifyChangesTest" duration-ms="684" started-at="2013-10-24T11:48:05Z" finished-at="2013-10-24T11:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editAppWithoutImagesAndVerifyChangesTest -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:com.dataart.selenium.tests.ApplicationTest@b5ee9d9]" name="openLoginPage" is-config="true" duration-ms="122" started-at="2013-10-24T11:48:06Z" finished-at="2013-10-24T11:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="verifyCorrespondingAppValuesTest()[pri:0, instance:com.dataart.selenium.tests.ApplicationTest@b5ee9d9]" name="verifyCorrespondingAppValuesTest" duration-ms="531" started-at="2013-10-24T11:48:06Z" finished-at="2013-10-24T11:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrespondingAppValuesTest -->
+      </class> <!-- com.dataart.selenium.tests.ApplicationTest -->
+      <class name="com.dataart.selenium.tests.RegistrationTest">
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:com.dataart.selenium.tests.RegistrationTest@38632055]" name="openLoginPage" is-config="true" duration-ms="32" started-at="2013-10-24T11:48:09Z" finished-at="2013-10-24T11:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="registerAndVerifyUserTest()[pri:0, instance:com.dataart.selenium.tests.RegistrationTest@38632055]" name="registerAndVerifyUserTest" duration-ms="717" started-at="2013-10-24T11:48:09Z" finished-at="2013-10-24T11:48:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAndVerifyUserTest -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:com.dataart.selenium.tests.RegistrationTest@38632055]" name="openLoginPage" is-config="true" duration-ms="122" started-at="2013-10-24T11:48:10Z" finished-at="2013-10-24T11:48:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="registerDevAndVerifyUploadPageTest()[pri:0, instance:com.dataart.selenium.tests.RegistrationTest@38632055]" name="registerDevAndVerifyUploadPageTest" duration-ms="752" started-at="2013-10-24T11:48:10Z" finished-at="2013-10-24T11:48:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerDevAndVerifyUploadPageTest -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:com.dataart.selenium.tests.RegistrationTest@38632055]" name="openLoginPage" is-config="true" duration-ms="195" started-at="2013-10-24T11:48:11Z" finished-at="2013-10-24T11:48:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="registerLogoutAndVerifyLoginUserTest()[pri:0, instance:com.dataart.selenium.tests.RegistrationTest@38632055]" name="registerLogoutAndVerifyLoginUserTest" duration-ms="1176" started-at="2013-10-24T11:48:11Z" finished-at="2013-10-24T11:48:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerLogoutAndVerifyLoginUserTest -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:com.dataart.selenium.tests.RegistrationTest@38632055]" name="openLoginPage" is-config="true" duration-ms="130" started-at="2013-10-24T11:48:12Z" finished-at="2013-10-24T11:48:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="registerUserAndVerifySeeAplicationTest()[pri:0, instance:com.dataart.selenium.tests.RegistrationTest@38632055]" name="registerUserAndVerifySeeAplicationTest" duration-ms="731" started-at="2013-10-24T11:48:12Z" finished-at="2013-10-24T11:48:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUserAndVerifySeeAplicationTest -->
+      </class> <!-- com.dataart.selenium.tests.RegistrationTest -->
+      <class name="com.dataart.selenium.tests.JSTest">
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:com.dataart.selenium.tests.JSTest@60f02e1b]" name="openLoginPage" is-config="true" duration-ms="126" started-at="2013-10-24T11:48:06Z" finished-at="2013-10-24T11:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="findPositionTest()[pri:0, instance:com.dataart.selenium.tests.JSTest@60f02e1b]" name="findPositionTest" duration-ms="525" started-at="2013-10-24T11:48:06Z" finished-at="2013-10-24T11:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPositionTest -->
+      </class> <!-- com.dataart.selenium.tests.JSTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

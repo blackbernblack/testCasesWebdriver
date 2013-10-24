@@ -13,6 +13,7 @@ import org.testng.annotations.Test;
 
 import static com.dataart.selenium.framework.BasePage.driver;
 import static com.dataart.selenium.framework.BasePage.initPage;
+import static com.dataart.selenium.framework.BasePage.settings;
 import static com.dataart.selenium.framework.Utils.isElementPresent;
 import static com.dataart.selenium.models.UserBuilder.admin;
 import static org.fest.assertions.Assertions.assertThat;
@@ -50,8 +51,8 @@ public class ApplicationTest extends BaseTest {
 
    @Test
     public void verifyCorrespondingAppValuesTest() {
-        if (((RemoteWebDriver)driver).getCapabilities().getBrowserName().equals("internet explorer")) {
-             fail("Test is not feasible for internet explorer");
+        if (settings.getBrowser().equals(BrowserType.IE)) {
+             fail("Test is not feasible for the internet explorer");
         }
         loginPage.loginAs(user);
         applicationPage = appsContentPage.openAppPage(1);
@@ -82,7 +83,7 @@ public class ApplicationTest extends BaseTest {
     @Test
     public void editAppWithoutImagesAndVerifyChangesTest() {
         loginPage.loginAs(user).getHeader().clickMyApplications();
-        //All apps without images, so choose first app for instance
+        //All apps have images src, so choose first app for instance
         applicationPage = appsContentPage.openAppPage(0);
         createEditApplicationPage = applicationPage.editNoImageApplication();
         createEditApplicationPage.editNoImageApplication("Edited Application" + Utils.getUUID());
@@ -99,8 +100,8 @@ public class ApplicationTest extends BaseTest {
 
     @Test
     public void createAppDownloadAndVerifyPopular() {
-        if (((RemoteWebDriver)driver).getCapabilities().getBrowserName().equals("internet explorer")) {
-            fail("Test is not feasible for internet explorer");
+        if (settings.getBrowser().equals(BrowserType.IE)) {
+            fail("Test is not feasible for the internet explorer");
         }
         loginPage.loginAs(user).getHeader().clickMyApplications();
         createEditApplicationPage = appsContentPage.clickToAddNewApp();
@@ -112,8 +113,8 @@ public class ApplicationTest extends BaseTest {
             driver.navigate().back();
             driver.navigate().refresh();
         }
-        assertTrue(applicationPage.isAppPopular(appTitle));
-        assertEquals(applicationPage.clickPopularApp(appTitle).getTitleText(),appTitle);
+        assertTrue(applicationPage.isAppPopular(appTitle),"vv");
+        assertEquals(applicationPage.clickPopularApp(appTitle).getTitleText(),appTitle,"");
     }
 
     @Test

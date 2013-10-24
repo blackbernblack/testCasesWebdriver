@@ -1,5 +1,6 @@
 package com.dataart.selenium.tests;
 
+import com.dataart.selenium.framework.BasePage;
 import com.dataart.selenium.framework.BaseTest;
 import com.dataart.selenium.models.User;
 import com.dataart.selenium.pages.*;
@@ -38,6 +39,7 @@ public class RegistrationTest extends BaseTest {
 
    @Test
     public void registerAndVerifyUserTest() {
+       //doesn't work for the Basic Authentication, it always returns admin user from Authentication
         loginPage.registerNewUser();
         registerPage.registerAs(user, RegisterPage.USER);
         assertHeader(user);

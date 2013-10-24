@@ -14,8 +14,9 @@ public class BaseTest {
             BasePage.driver.manage().window().maximize();
     }
 
-    @AfterSuite(alwaysRun = true)
-    public static void afterClass() {
-        BasePage.driver.close();
+    @AfterTest(alwaysRun = true)
+    public static void afterClass2() {
+        BasePage.driver.quit();
     }
+
 }

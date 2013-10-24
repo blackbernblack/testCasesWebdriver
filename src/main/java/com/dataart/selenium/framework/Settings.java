@@ -98,11 +98,6 @@ public class Settings {
                 System.setProperty("webdriver.chrome.driver", TEST_CLASSES_PATH + "//chromedriver.exe");
                 return new ChromeDriver();
             case OPERA:
-                System.setProperty("webdriver.opera.driver", TEST_CLASSES_PATH + "//operadriver-v1.1.jar");
-
-
-
-
                 return new OperaDriver();
             case HTMLUNIT:
                 return new HtmlUnitDriver();
